@@ -7,6 +7,7 @@ import javafx.scene.Group;
 import javafx.scene.Scene;
 import javafx.scene.control.Alert;
 import  javafx.scene.control.Button;
+import javafx.scene.control.ButtonType;
 import javafx.scene.control.MenuItem;
 import javafx.scene.layout.VBox;
 import javafx.scene.paint.Color;
@@ -17,7 +18,10 @@ import javafx.stage.PopupWindow;
 import javafx.stage.Stage;
 import javafx.scene.text.FontWeight;
 import pizzashop.gui.OrdersGUI;
+import pizzashop.model.PaymentType;
 import pizzashop.service.PizzaService;
+
+import java.util.Optional;
 
 import static javafx.scene.paint.Color.DARKBLUE;
 
@@ -39,6 +43,8 @@ public class MainGUIController  {
     private Button table7;
     @FXML
     private Button table8;
+    @FXML
+    private Button close;
     @FXML
     private MenuItem help;
 
@@ -92,6 +98,20 @@ public class MainGUIController  {
         table8.setOnAction(event -> {
             table8Orders.setTableNumber(8);
             table8Orders.displayOrdersForm(service);
+        });
+        close.setOnAction(event -> {
+            Alert exitAlert = new Alert(Alert.AlertType.CONFIRMATION, "Would you like to exit the Main window?", ButtonType.YES, ButtonType.NO);
+            Optional<ButtonType> result = exitAlert.showAndWait();
+            if (result.get() == ButtonType.YES){
+                //Stage stage = (Stage) this.getScene().getWindow();
+                Alert money = new Alert(Alert.AlertType.CONFIRMATION);
+                money.setTitle("Incasari pe ziua de astazi");
+                money.setContentText("Incasari cash: "+service.getTotalAmount(PaymentType.Cash) + '\n'
+                        + "Incasari card: "+service.getTotalAmount(PaymentType.Card));
+                money.show();
+                Stage stage = (Stage) close.getScene().getWindow();
+                stage.close();
+            }
         });
 
     }

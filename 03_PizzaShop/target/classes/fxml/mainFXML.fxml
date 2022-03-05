@@ -33,6 +33,7 @@
         <Button fx:id="table6" minWidth="80" text="Table6" />
         <Button fx:id="table7" minWidth="80" text="Table7" />
         <Button fx:id="table8" minWidth="80" text="Table8" />
+        <Button fx:id="close" minWidth="80" text="Inchidere restaurant" />
     </children>
 
 </VBox>

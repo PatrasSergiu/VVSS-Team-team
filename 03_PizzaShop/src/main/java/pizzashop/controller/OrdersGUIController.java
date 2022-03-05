@@ -43,10 +43,11 @@ public class OrdersGUIController {
     @FXML
     private Button payOrder;
     @FXML
-    private Button newOrder;
+    private Button exitTable;
 
     private   List<String> orderList = FXCollections.observableArrayList();
     private List<Double> orderPaymentList = FXCollections.observableArrayList();
+    PaymentAlert pay;
     public static double getTotalAmount() {
         return totalAmount;
     }
@@ -68,45 +69,64 @@ public class OrdersGUIController {
     public void setService(PizzaService service, int tableNumber){
         this.service=service;
         this.tableNumber=tableNumber;
-        initData();
-
+        try {
+            initData();
+        }
+        catch (Exception ex) {
+            Alert alert = new Alert(Alert.AlertType.ERROR);
+            alert.setTitle("Problema");
+            alert.setHeaderText("bai mare");
+            alert.setContentText(ex.getMessage());
+        }
+        pay = new PaymentAlert(service);
     }
 
-    private void initData(){
+    private void initData() throws Exception{
         menuData = FXCollections.observableArrayList(service.getMenuData());
         menuData.setAll(service.getMenuData());
         orderTable.setItems(menuData);
 
-        //Controller for Place Order Button
-        placeOrder.setOnAction(event ->{
-            orderList= menuData.stream()
-                    .filter(x -> x.getQuantity()>0)
-                    .map(menuDataModel -> menuDataModel.getQuantity() +" "+ menuDataModel.getMenuItem())
-                    .collect(Collectors.toList());
-            observableList = FXCollections.observableList(orderList);
-            KitchenGUIController.order.add("Table" + tableNumber +" "+ orderList.toString());
-            orderStatus.setText("Order placed at: " +  now.get(Calendar.HOUR)+":"+now.get(Calendar.MINUTE));
-        });
+            //Controller for Place Order Button
+            placeOrder.setOnAction(event -> {
+                orderList = menuData.stream()
+                        .filter(x -> x.getQuantity() > 0)
+                        .map(menuDataModel -> menuDataModel.getQuantity() + " " + menuDataModel.getMenuItem())
+                        .collect(Collectors.toList());
+                observableList = FXCollections.observableList(orderList);
+                KitchenGUIController.order.add("Table" + tableNumber + " " + orderList.toString());
+                orderStatus.setText("Order placed at: " + now.get(Calendar.HOUR) + ":" + now.get(Calendar.MINUTE));
+            });
 
-        //Controller for Order Served Button
-        orderServed.setOnAction(event -> {orderStatus.setText("Served at: " + now.get(Calendar.HOUR)+":"+now.get(Calendar.MINUTE));
-        });
+            //Controller for Order Served Button
+            orderServed.setOnAction(event -> {
+                if (KitchenGUIController.order.contains("Table" + tableNumber + " " + orderList.toString())) {
+                    orderStatus.setText("Not cooked yet");
+                } else {
+                    orderStatus.setText("Served at: " + now.get(Calendar.HOUR) + ":" + now.get(Calendar.MINUTE));
+                }
+            });
 
-        //Controller for Pay Order Button
-        payOrder.setOnAction(event -> {
-            orderPaymentList= menuData.stream()
-                    .filter(x -> x.getQuantity()>0)
-                    .map(menuDataModel -> menuDataModel.getQuantity()*menuDataModel.getPrice())
-                    .collect(Collectors.toList());
-            setTotalAmount(orderPaymentList.stream().mapToDouble(e->e.doubleValue()).sum());
-            orderStatus.setText("Total amount: " + getTotalAmount());
-            System.out.println("--------------------------");
-            System.out.println("Table: " + tableNumber);
-            System.out.println("Total: " + getTotalAmount());
-            System.out.println("--------------------------");
-            PaymentAlert pay = new PaymentAlert(service);
-            pay.showPaymentAlert(tableNumber, this.getTotalAmount());
-        });
+            //Controller for Pay Order Button
+            payOrder.setOnAction(event -> {
+                orderPaymentList = menuData.stream()
+                        .filter(x -> x.getQuantity() > 0)
+                        .map(menuDataModel -> menuDataModel.getQuantity() * menuDataModel.getPrice())
+                        .collect(Collectors.toList());
+                setTotalAmount(orderPaymentList.stream().mapToDouble(e -> e.doubleValue()).sum());
+                if(getTotalAmount() < 1) {
+                    orderStatus.setText("Nimic de plata");
+                }
+                else {
+                    orderStatus.setText("Total amount: " + getTotalAmount());
+                    System.out.println("--------------------------");
+                    System.out.println("Table: " + tableNumber);
+                    System.out.println("Total: " + getTotalAmount());
+                    System.out.println("--------------------------");
+                    pay.showPaymentAlert(tableNumber, this.getTotalAmount());
+                }
+
+            });
+
     }
 
     public void initialize(){
@@ -145,11 +165,11 @@ public class OrdersGUIController {
         });
 
         //Controller for Exit table Button
-        newOrder.setOnAction(event -> {
+        exitTable.setOnAction(event -> {
             Alert exitAlert = new Alert(Alert.AlertType.CONFIRMATION, "Exit table?",ButtonType.YES, ButtonType.NO);
             Optional<ButtonType> result = exitAlert.showAndWait();
             if (result.get() == ButtonType.YES){
-                Stage stage = (Stage) newOrder.getScene().getWindow();
+                Stage stage = (Stage) exitTable.getScene().getWindow();
                 stage.close();
                 }
         });
