@@ -1,0 +1,9 @@
+R01 - Pentru inchiderea restaurantului, nu se mentioneaza o ora de inchidere, pentru a stii cand sa se afiseze totalul incasarilor, pentru a evita o situatie in care
+restaurantul se inchide pentru ca nu mai are clienti, chiar daca a fost doar recent deschis; nu este sfarsitul programului.  ---- 3 minute
+R02 - La inchiderea restaurantului se afiseaza totalul incasarilor realizate, pentru fiecare tip de plata -> unde, cine le vizualizeaza? se pastreaza un istoric? etc.. ---- 5 minute
+R03 - Nu exista contradictii --- 5 minute
+R04 - Nu se mentioneaza nimic despre sistem sau despre state-ul sistemului --- 1 minut
+R05 - Functiile nu sunt bine definite, lipsesc detalii. Ex: F02, unde se afiseaza, cine ar trebuii sa vada aceste detalii etc. --- 3 minute
+R06 - Chiar daca requirement-urile sunt incomplete, se pot intelege in mare parte nevoile user-ului --- 10 minute
+R07 - Nu putem definii clar entitatiile  "masa", "bucatarie", "restaurant", dar nu avem detalii specifice despre cum sunt definite si legaturile cu celelalte entitati --- 2 minute
+
