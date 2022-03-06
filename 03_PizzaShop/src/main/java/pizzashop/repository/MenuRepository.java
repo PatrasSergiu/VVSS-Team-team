@@ -9,15 +9,14 @@ import java.util.StringTokenizer;
 
 public class MenuRepository {
     private static String filename = "data/menu.txt";
-    private List<MenuDataModel> listMenu;
 
     public MenuRepository(){
     }
 
-    private void readMenu(){
+    private List<MenuDataModel> readMenu(){
         ClassLoader classLoader = MenuRepository.class.getClassLoader();
         File file = new File(classLoader.getResource(filename).getFile());
-        this.listMenu= new ArrayList();
+        List<MenuDataModel> listMenu = new ArrayList();
         BufferedReader br = null;
         try {
             br = new BufferedReader(new FileReader(file));
@@ -30,6 +29,7 @@ public class MenuRepository {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        return listMenu;
     }
 
     private MenuDataModel getMenuItem(String line){
@@ -43,8 +43,8 @@ public class MenuRepository {
     }
 
     public List<MenuDataModel> getMenu(){
-        readMenu();//create a new menu for each table, on request
-        return listMenu;
+        //create a new menu for each table, on request
+        return readMenu();
     }
 
 }

@@ -82,8 +82,9 @@ public class OrdersGUIController {
     }
 
     private void initData(){
-        menuData = FXCollections.observableArrayList(service.getMenuData());
-        menuData.setAll(service.getMenuData());
+        List<MenuDataModel> listMenu = service.getMenuData();
+        menuData = FXCollections.observableArrayList(listMenu);
+        menuData.setAll(listMenu);
         orderTable.setItems(menuData);
 
             //Controller for Place Order Button
@@ -122,7 +123,7 @@ public class OrdersGUIController {
                     System.out.println("Table: " + tableNumber);
                     System.out.println("Total: " + getTotalAmount());
                     System.out.println("--------------------------");
-                    pay.showPaymentAlert(tableNumber, this.getTotalAmount());
+                    pay.showPaymentAlert(tableNumber, getTotalAmount());
                 }
 
             });
@@ -159,7 +160,7 @@ public class OrdersGUIController {
             @Override
             public void changed(ObservableValue<? extends MenuDataModel> observable, MenuDataModel oldValue, MenuDataModel newValue){
             oldValue.setQuantity(orderQuantity.getValue());
-            orderTable.getSelectionModel().selectedItemProperty().removeListener(this);
+            //orderTable.getSelectionModel().selectedItemProperty().removeListener(this);
                 }
             });
         });
