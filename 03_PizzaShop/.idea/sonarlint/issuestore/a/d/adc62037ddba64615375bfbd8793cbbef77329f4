@@ -1,0 +1,6 @@
+
+V	java:S125"<This block of commented-out lines of code should be removed.(ğ£ë®ıÿÿÿÿ
+I
+java:S1602&",Remove useless curly braces around statement(·ŸúĞ8ËäÁ÷õ/
+X
+java:S1612&";Replace this lambda with method reference 'Event::consume'.(·ŸúĞ8ËäÁ÷õ/

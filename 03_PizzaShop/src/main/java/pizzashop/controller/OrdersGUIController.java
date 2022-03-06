@@ -51,8 +51,8 @@ public class OrdersGUIController {
     public static double getTotalAmount() {
         return totalAmount;
     }
-    public void setTotalAmount(double totalAmount) {
-        this.totalAmount = totalAmount;
+    public void setTotalAmount(double total) {
+        totalAmount = total;
     }
 
     private PizzaService service;
@@ -81,7 +81,7 @@ public class OrdersGUIController {
         pay = new PaymentAlert(service);
     }
 
-    private void initData() throws Exception{
+    private void initData(){
         menuData = FXCollections.observableArrayList(service.getMenuData());
         menuData.setAll(service.getMenuData());
         orderTable.setItems(menuData);

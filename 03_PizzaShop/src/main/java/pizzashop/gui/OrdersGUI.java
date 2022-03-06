@@ -1,11 +1,9 @@
 package pizzashop.gui;
 
-import javafx.event.EventHandler;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
-import javafx.stage.WindowEvent;
 import pizzashop.controller.OrdersGUIController;
 import pizzashop.service.PizzaService;
 
@@ -37,13 +35,10 @@ public class OrdersGUI {
      stage.setTitle("Table"+getTableNumber()+" order form");
      stage.setResizable(false);
      // disable X on the window
-     stage.setOnCloseRequest(new EventHandler<WindowEvent>() {
-      @Override
-     public void handle(WindowEvent event) {
-         // consume event
-         event.consume();
-            }
-        });
+     stage.setOnCloseRequest(event -> {
+        // consume event
+        event.consume();
+           });
      stage.setScene(new Scene(vBoxOrders));
      stage.show();
     }
