@@ -123,7 +123,11 @@ public class OrdersGUIController {
                     System.out.println("Table: " + tableNumber);
                     System.out.println("Total: " + getTotalAmount());
                     System.out.println("--------------------------");
-                    pay.showPaymentAlert(tableNumber, getTotalAmount());
+                    try {
+                        pay.showPaymentAlert(tableNumber, getTotalAmount());
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
                 }
 
             });
