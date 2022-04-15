@@ -3,8 +3,10 @@ package pizzashop.service.test;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.mockito.Mockito;
 import pizzashop.model.Payment;
 import pizzashop.model.PaymentType;
+import pizzashop.repository.PaymentRepository;
 import pizzashop.service.PizzaService;
 import pizzashop.service.test.mocks.MockPaymentRepository;
 
@@ -16,8 +18,13 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class PizzaServiceTestF02 {
 
+    private PaymentRepository mockitoRepo;
+    private PizzaService pizzaService;
+
     @BeforeEach
     void setUp() {
+        mockitoRepo = Mockito.mock(PaymentRepository.class);
+        pizzaService = new PizzaService(null, mockitoRepo);
     }
 
     @AfterEach
@@ -26,9 +33,10 @@ class PizzaServiceTestF02 {
 
     @Test
     void getTotalAmount_P01() {
-        //Arrange
-        MockPaymentRepository mockPaymentRepository = new MockPaymentRepository(null);
-        PizzaService pizzaService = new PizzaService(null, mockPaymentRepository);
+//        //Arrange
+//        //MockPaymentRepository mockPaymentRepository = new MockPaymentRepository(null);
+//        PaymentRepository mockPaymentRepository = mock(PaymentRepository.class);
+//        PizzaService pizzaService = new PizzaService(null, mockPaymentRepository);
 
         //Act
         double result = pizzaService.getTotalAmount(PaymentType.Cash);
@@ -41,8 +49,8 @@ class PizzaServiceTestF02 {
     @Test
     void getTotalAmount_P02() {
         //Arrange
-        MockPaymentRepository mockPaymentRepository = new MockPaymentRepository(new ArrayList<>());
-        PizzaService pizzaService = new PizzaService(null, mockPaymentRepository);
+//        MockPaymentRepository mockPaymentRepository = new MockPaymentRepository(new ArrayList<>());
+//        PizzaService pizzaService = new PizzaService(null, mockPaymentRepository);
 
         //Act
         double result = pizzaService.getTotalAmount(PaymentType.Cash);
@@ -57,17 +65,18 @@ class PizzaServiceTestF02 {
         //Arrange
         List<Payment> mockGetPaymentsResult = new ArrayList<>(Arrays.asList(
                 new Payment(1, PaymentType.Cash, 10),
-                new Payment(2, PaymentType.Cash, 20),
+                new Payment(2, PaymentType.Card, 20),
                 new Payment(3, PaymentType.Cash, 4)
         ));
-        MockPaymentRepository mockPaymentRepository = new MockPaymentRepository(mockGetPaymentsResult);
+        PaymentRepository mockPaymentRepository = Mockito.mock(PaymentRepository.class);
         PizzaService pizzaService = new PizzaService(null, mockPaymentRepository);
 
         //Act
+        Mockito.when(mockPaymentRepository.getAll()).thenReturn(mockGetPaymentsResult);
         double result = pizzaService.getTotalAmount(PaymentType.Card);
 
         //Assert
-        assertEquals(0, result);
+        assertEquals(20, result);
     }
 
 
@@ -75,15 +84,16 @@ class PizzaServiceTestF02 {
     void getTotalAmount_P04() {
         //Arrange
         List<Payment> mockGetPaymentsResult = new ArrayList<>(Arrays.asList(
-                new Payment(1, PaymentType.Cash, 10),
-                new Payment(2, PaymentType.Card, 20),
-                new Payment(3, PaymentType.Cash, 4)
+                new Payment(1, PaymentType.Card, 10),
+                new Payment(2, PaymentType.Cash, 20),
+                new Payment(3, PaymentType.Card, 4)
         ));
-        MockPaymentRepository mockPaymentRepository = new MockPaymentRepository(mockGetPaymentsResult);
+        PaymentRepository mockPaymentRepository = Mockito.mock(PaymentRepository.class);
         PizzaService pizzaService = new PizzaService(null, mockPaymentRepository);
 
         //Act
-        double result = pizzaService.getTotalAmount(PaymentType.Cash);
+        Mockito.when(mockPaymentRepository.getAll()).thenReturn(mockGetPaymentsResult);
+        double result = pizzaService.getTotalAmount(PaymentType.Card);
 
         //Assert
         assertEquals(14, result);
