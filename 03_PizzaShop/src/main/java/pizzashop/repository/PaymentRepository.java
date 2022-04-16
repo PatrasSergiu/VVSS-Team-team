@@ -47,7 +47,7 @@ public class PaymentRepository {
 
     public void add(Payment payment){
         paymentList.add(payment);
-        writeAll();
+        //writeAll();
     }
 
     public List<Payment> getAll(){

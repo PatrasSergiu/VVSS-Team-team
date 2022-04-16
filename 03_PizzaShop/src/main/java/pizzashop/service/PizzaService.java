@@ -29,6 +29,13 @@ public class PizzaService {
         payRepo.add(payment);
     }
 
+    public void addPayment(Payment payment) throws Exception {
+        int table = payment.getTableNumber();
+        if(table < 1 || table > 8)
+            throw new Exception("Invalid table number");
+        payRepo.add(payment);
+    }
+
     public double getTotalAmount(PaymentType type){
         double total=0.0f;
         List<Payment> l=getPayments();
