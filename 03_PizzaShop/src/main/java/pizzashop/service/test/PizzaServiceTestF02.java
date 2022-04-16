@@ -50,8 +50,8 @@ class PizzaServiceTestF02 {
     @Test
     void getTotalAmount_P02() {
         //Arrange
-//        MockPaymentRepository mockPaymentRepository = new MockPaymentRepository(new ArrayList<>());
-//        PizzaService pizzaService = new PizzaService(null, mockPaymentRepository);
+        MockPaymentRepository mockPaymentRepository = new MockPaymentRepository(new ArrayList<>());
+        PizzaService pizzaService = new PizzaService(null, mockPaymentRepository);
 
         //Act
         double result = pizzaService.getTotalAmount(PaymentType.Cash);
