@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="af4171d0-1bcf-4843-b4c1-bb46004ed4e1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/6/862d4eb199283e0e9c78f504b07ec47424c924ff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/6/96918fbf96ed3b7a17a281934f9095202e2ca051" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/0/b0e48405f0ebddab4ecea2ba722dcd0546d61cea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/7/d710b77068e128f035d497fc3878605971f031b5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Lab01/ClassDiagramDep_v2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Lab01/ClassDiagram_v2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Lab01/Lab01_Requirements Phase Defects Checklist.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Lab01/Lab01_ReviewReport.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Lab01/Lab02_Architectural Design Phase Defects Checklist.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Lab01/Lab02_Program Coding Phase Defects Checklist.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Lab01/RequirementsPizzaShop_v2.0.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Lab02/235_test_spec-2022-03-17.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Lab02/Lab02_BBT_TCs_Form.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Lab02/~$5_test_spec-2022-03-17.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Lab03/235_test_spec-2022-04-03.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Lab03/Lab03_WBT_TCs_Form.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Lab03/css/coverage.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Lab03/css/highlight-idea.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Lab03/img/arrowDown.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Lab03/img/arrowUp.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Lab03/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Lab03/index_SORT_BY_BLOCK.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Lab03/index_SORT_BY_BLOCK_DESC.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Lab03/index_SORT_BY_CLASS.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Lab03/index_SORT_BY_CLASS_DESC.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Lab03/index_SORT_BY_LINE.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Lab03/index_SORT_BY_LINE_DESC.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Lab03/index_SORT_BY_METHOD.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Lab03/index_SORT_BY_METHOD_DESC.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Lab03/index_SORT_BY_NAME_DESC.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Lab03/js/highlight.pack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Lab03/ns-1/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Lab03/ns-1/index_SORT_BY_BLOCK.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Lab03/ns-1/index_SORT_BY_BLOCK_DESC.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Lab03/ns-1/index_SORT_BY_CLASS.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Lab03/ns-1/index_SORT_BY_CLASS_DESC.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Lab03/ns-1/index_SORT_BY_LINE.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Lab03/ns-1/index_SORT_BY_LINE_DESC.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Lab03/ns-1/index_SORT_BY_METHOD.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Lab03/ns-1/index_SORT_BY_METHOD_DESC.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Lab03/ns-1/index_SORT_BY_NAME_DESC.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Lab03/ns-1/sources/source-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Lab03/ns-1/sources/source-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Lab04/235_test_spec-2022-04-17.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/initial/ClassDiagram.uml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/initial/ClassDiagramDepPizzaShop_v1.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/initial/ClassDiagramPizzaShop_v1.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/initial/RequirementsPizzaShop_v1.0.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/initial/RequirementsPizzaShop_v1.0.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PizzaShop.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/controller/KitchenGUIController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/controller/MainGUIController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/controller/OrdersGUIController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/gui/KitchenGUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/gui/OrdersGUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/model/MenuDataModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/model/Payment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/model/PaymentType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/repository/MenuRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/repository/PaymentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/service/PaymentAlert.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/service/PaymentAlertTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/service/PaymentOperation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/service/PizzaService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/service/test/PaymentTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/service/test/PizzaServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/service/test/PizzaServiceTestF02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/service/test/mocks/MockPaymentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/menu.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/payments.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/OrdersGUIFXML.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/kitchenGUIFXML.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/mainFXML.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pizzashop/integrationTesting/step2/IntegrationStep2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pizzashop/integrationTesting/step3/IntegrationStep3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pizzashop/repository/test/PaymentRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/PizzaShop-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data/menu.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data/payments.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fxml/OrdersGUIFXML.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fxml/kitchenGUIFXML.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fxml/mainFXML.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/Main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/controller/KitchenGUIController$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/controller/KitchenGUIController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/controller/KitchenGUIController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/controller/MainGUIController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/controller/OrdersGUIController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/controller/OrdersGUIController$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/controller/OrdersGUIController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/gui/KitchenGUI$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/gui/KitchenGUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/gui/OrdersGUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/model/MenuDataModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/model/Payment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/model/PaymentType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/repository/MenuRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/repository/PaymentRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/service/PaymentAlert.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/service/PaymentAlertTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/service/PaymentOperation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/service/PizzaService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/service/test/PaymentTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/service/test/PizzaServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/service/test/PizzaServiceTestF02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/service/test/mocks/MockPaymentRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-cli/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-cli/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pizzashop/integrationTesting/step2/IntegrationStep2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pizzashop/integrationTesting/step3/IntegrationStep3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pizzashop/repository/test/PaymentRepositoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="261gNvffkeQKVSBgn4acoyaaHMM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="pizzashop.repository.test" />
+      <recent name="pizzashop.model" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.IntegrationStep2">
+    <configuration name="IntegrationStep2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="03_PizzaShop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pizzashop.integrationTesting.step2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pizzashop.integrationTesting.step2" />
+      <option name="MAIN_CLASS_NAME" value="pizzashop.integrationTesting.step2.IntegrationStep2" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntegrationStep3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="03_PizzaShop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pizzashop.integrationTesting.step3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pizzashop.integrationTesting.step3" />
+      <option name="MAIN_CLASS_NAME" value="pizzashop.integrationTesting.step3.IntegrationStep3" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntegrationStep3.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="03_PizzaShop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pizzashop.integrationTesting.step3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pizzashop.integrationTesting.step3" />
+      <option name="MAIN_CLASS_NAME" value="pizzashop.integrationTesting.step3.IntegrationStep3" />
+      <option name="METHOD_NAME" value="testAdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntegrationStep3.testGetAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="03_PizzaShop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pizzashop.integrationTesting.step3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pizzashop.integrationTesting.step3" />
+      <option name="MAIN_CLASS_NAME" value="pizzashop.integrationTesting.step3.IntegrationStep3" />
+      <option name="METHOD_NAME" value="testGetAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PizzaServiceTestF02.getTotalAmount_P02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="03_PizzaShop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pizzashop.service.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pizzashop.service.test" />
+      <option name="MAIN_CLASS_NAME" value="pizzashop.service.test.PizzaServiceTestF02" />
+      <option name="METHOD_NAME" value="getTotalAmount_P02" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PizzaShop [compile,exec:java]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="compile" />
+                <option value="exec:java" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.IntegrationStep2" />
+        <item itemvalue="JUnit.PizzaServiceTestF02.getTotalAmount_P02" />
+        <item itemvalue="JUnit.IntegrationStep3" />
+        <item itemvalue="JUnit.IntegrationStep3.testAdd" />
+        <item itemvalue="JUnit.IntegrationStep3.testGetAll" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="af4171d0-1bcf-4843-b4c1-bb46004ed4e1" name="Changes" comment="" />
+      <created>1646596489844</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646596489844</updated>
+      <workItem from="1646596498204" duration="217000" />
+      <workItem from="1646638769301" duration="47000" />
+      <workItem from="1646651292825" duration="833000" />
+      <workItem from="1647860772500" duration="694000" />
+      <workItem from="1650028577414" duration="20281000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PizzaShop_iml$PizzaServiceTestF02_getTotalAmount_P01.ic" NAME="PizzaServiceTestF02.getTotalAmount_P01 Coverage Results" MODIFIED="1650029653947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>pizzashop.service.test.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/PizzaShop_iml$PizzaServiceTestF02.ic" NAME="PizzaServiceTestF02 Coverage Results" MODIFIED="1650110391389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>pizzashop.service.test.*</FILTER>
+    </SUITE>
+  </component>
+</project>
