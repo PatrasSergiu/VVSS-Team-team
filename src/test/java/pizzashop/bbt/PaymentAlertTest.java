@@ -15,4 +15,15 @@ class PaymentAlertTest {
     void ECP_ValidSum() {
 
     }
+
+    @Test
+    void BVA_InvalidSum() {
+
+    }
+
+    @Test
+    void BVA_ValidSum() {
+        
+    }
+
 }
