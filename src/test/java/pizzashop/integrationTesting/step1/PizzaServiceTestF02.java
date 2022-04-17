@@ -1,9 +1,8 @@
-package pizzashop.service.test;
+package pizzashop.integrationTesting.step1;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.mockito.Mock;
 import org.mockito.Mockito;
 import pizzashop.model.Payment;
 import pizzashop.model.PaymentType;
@@ -15,7 +14,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class PizzaServiceTestF02 {
 
