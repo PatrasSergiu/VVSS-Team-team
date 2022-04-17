@@ -1,4 +1,4 @@
-package pizzashop.service;
+package pizzashop.bbt;
 
 import org.junit.jupiter.api.Test;
 
@@ -8,5 +8,11 @@ class PaymentAlertTest {
 
     @Test
     void ECP_InvalidPaymentType() {
+
+    }
+
+    @Test
+    void ECP_ValidSum() {
+
     }
 }
